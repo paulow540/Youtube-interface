@@ -1,0 +1,158 @@
+#first{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.one1{
+    margin-left: -100px;
+
+}
+.one2{
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.ng{
+    margin-top: -45px;
+    margin-left: 58px;
+    font-size: small;
+}
+#two{
+    width: 600px;
+    border: 2px solid gray;
+    margin-top: 15px;
+    /* margin-right: 50px; */
+    height: 33px;
+    background-color: gray;
+
+}
+#search{
+    width: 550px;
+    padding-top: 4px;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+#third{
+    margin-top: 20px;
+    /* margin-right: 50px; */
+}
+.th{
+    margin-left: 20px;
+    /* margin-right: 30px; */
+}
+.bbe{
+    /* margin-right: 100px;  */
+    margin-top: 30px;
+display: none;
+}
+.mind1{
+    color: grey;
+    width: 170px;
+    font-size: smaller;
+  }
+  .mind2{
+      /* margin-top:-80px; */
+      margin-right: -40px;
+  }
+  .mind3{
+      margin-left: 50px;
+      margin-top: -20px;
+      font-size: smaller;
+    color: grey;
+
+  }
+  .mind4{
+    margin-left: 50px; 
+    font-size: smaller;
+    color: grey;
+    width: 300px;
+
+  }
+  a:hover{
+      text-decoration: none;
+  }
+  /* .na2{
+    display: flex;  
+  } */
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+
+    .one1{
+        display: none;
+
+    }
+    .na1{
+        height: 100%;
+        width: 100%;
+    }
+    #two{
+        display: none;
+    }
+    #third{
+        display: none;
+    }
+    .ng{
+        margin-top: -45px;
+        margin-left: 120px;
+        font-size: small;
+    }
+    #button{
+        display: inherit;
+    }
+    .bbe{
+        display: inherit;
+    }
+    .col-2{
+        display: none;
+    }
+
+    .naw{
+        display: block;
+        margin-left: 30px;
+        width: 50%;
+    }
+    #lkl{
+        width: 100%;
+        height: 100%;
+    }
+    .col-md-9{
+        position: fixed;
+        top: 60px;
+        z-index: 1;
+    }
+    .na2{
+      flex-wrap: wrap;
+     
+    }
+    .na3{
+        flex-wrap: wrap; 
+    }
+    .na3{
+        flex-wrap: wrap;
+    }
+    .na4{
+        flex-wrap: wrap;
+    }
+    .mt-2{
+        width: 700%;
+        height: 500%;
+    }
+}
+  
+
+
+
